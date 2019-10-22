@@ -1,0 +1,1 @@
+include ':app', ':kaixingxiaoxiaole', ':xmllayout', ':javalayout', ':xmljavalayout', ':myview', ':softwareUpdate', ':loginwexing', ':centerquart', ':xmlylogin', ':qqlist', ':qqzone', ':kxxxllogin', ':choosetext', ':feijidazhan', ':datepicker', ':timepicker', ':chronometer', ':gamestart', ':seekbar', ':ratingbar', ':imageview', ':showpicture', ':qqalbum', ':doubanapp', ':wechat'

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#F3F3F3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top"
+        android:scaleType="fitXY"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请写下对宝贝的感受吧，对他人帮助很大哦"
+        android:drawableLeft="@drawable/cloth"
+        android:gravity="top"
+        android:background="#FFFFFF"
+        android:lines="5" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pt"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="店铺评分"
+        android:background="#FFFFFF"
+        android:textSize="20sp"/>
+    <RatingBar
+        android:id="@+id/rb"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:background="#FFFFFF"
+        android:stepSize="1"/>
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="匿名评价"
+        android:background="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
